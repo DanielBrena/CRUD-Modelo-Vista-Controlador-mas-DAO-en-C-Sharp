@@ -1,0 +1,203 @@
+html
+{
+     
+    background-color:#F1F2F7;
+    width:100%;
+    height:800;
+}
+#contenedor
+{
+    width:100%;
+    height:800px;
+}
+#cabecera
+{
+    float:left;
+    width:100%;
+    background-color:#2A3542;
+   
+}
+
+#cabecera-1
+{
+    padding:4px;
+    float:left;
+    text-align:center;
+}
+#buscar-usuario, btn-usu.#btn-buscar, #btn-agregar , #cabecera-mensaje
+{
+    float:left;
+    margin-left:5px;
+}
+#cabecera-mensaje
+{
+    color:#FFFFFF;
+    margin-left:15px;
+}
+#lista
+{
+    list-style-type:none;
+    padding-left:0px;
+    margin-top:0px;
+    height:600px;
+}
+.lista-item
+{
+    text-decoration:none;
+    width:100%;
+    text-align:center;
+    height:40px;
+    background-color:#FFFFFF;
+    border:1px solid #F1F2F7;
+    color:#2A3542;
+    cursor:pointer;
+    font-size:larger;
+}
+
+
+.lista-item:hover
+{
+    background-color: #2A3542;
+    color:#FFFFFF;
+}
+
+#lista
+{
+    overflow-x:hidden;
+    height:480px;
+}
+#cabecera-2
+{
+    padding:6px;
+    float:right;
+    text-align:center;
+    
+}
+#buscar-usuario
+{
+    width:300px;
+    height:25px;
+    color:#2A3542;
+}
+#btn-buscar
+{
+    width:150px;
+    height:25px;
+    border:0px;
+    background-color:#9AA0A6;
+    color:#FFFFFF;
+}
+#btn-agregar
+{
+    width:150px;
+    height:25px;
+    border:0px;
+    background-color:#9AA0A6;
+    color:#FFFFFF;
+}
+
+#btn-salir
+{
+    width:150px;
+    height:25px;
+    border:0px;
+    color:#2A3542;
+    background-color:#FFFFFF;
+}
+
+#cuerpo
+{
+    width:100%;
+    
+    float:left;
+    
+}
+.caja
+{
+    margin-top:20px;
+    height:550px;
+    
+    float:left;
+    width:30%;
+    background-color:#FFFFFF;
+    margin-left:20px;
+}
+#cuerpo-1
+{
+    float:left;
+    
+}
+#paginacion
+{
+    height:30px;
+    width:100%;
+}
+
+#contenido-editable
+{
+    text-align:center;
+    display:none;
+}
+
+.caja-editable
+{
+    margin-top:5px;
+    
+    width:98%;
+    height:30px;   
+}
+.caja-input
+{
+    padding:5px;
+}
+.label-input 
+{
+    padding:10px;
+    border:1px solid #F1F2F7;
+    background-color:#FFFFFF;
+}
+
+#contenido-visible
+{
+    text-align:center;
+    background-color: #2A3542;
+    color:#FFFFFF;
+    display:none;
+}
+#actualizar
+{
+    background-color:#6CCAC9;
+    height:50px;
+    
+}
+#cancelar
+{
+    background-color:#FF6C60;
+    height:25px;
+    color:#FFFFFF;
+    cursor:pointer;
+}
+
+#guardar
+{
+    background-color:#F8D347;
+    height:25px;
+    color:#FFFFFF;
+    cursor:pointer;
+}
+#eliminar
+{
+    background-color:#57C8F2;
+    height:25px;
+    color:#FFFFFF;
+    cursor:pointer;
+}
+
+
+
+.label-visible
+{
+    font-size:large;
+    margin-top:5px;
+    color:#2A3542;
+}

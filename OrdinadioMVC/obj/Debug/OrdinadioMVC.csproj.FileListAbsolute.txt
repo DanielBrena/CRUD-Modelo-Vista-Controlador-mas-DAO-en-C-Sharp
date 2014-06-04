@@ -1,0 +1,4 @@
+c:\users\daniel\documents\visual studio 2010\Projects\OrdinadioMVC\OrdinadioMVC\bin\OrdinadioMVC.dll
+c:\users\daniel\documents\visual studio 2010\Projects\OrdinadioMVC\OrdinadioMVC\bin\OrdinadioMVC.pdb
+c:\users\daniel\documents\visual studio 2010\Projects\OrdinadioMVC\OrdinadioMVC\obj\Debug\OrdinadioMVC.dll
+c:\users\daniel\documents\visual studio 2010\Projects\OrdinadioMVC\OrdinadioMVC\obj\Debug\OrdinadioMVC.pdb

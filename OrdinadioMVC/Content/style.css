@@ -1,0 +1,52 @@
+﻿html
+{
+     
+    background-color:#F1F2F7;
+    width:100%;
+    height:800;
+}
+#login
+{
+    text-align:center;
+    width:300px;
+    background-color:#FFFFFF; 
+    margin-left:40%;  
+    margin-top:5%;
+}
+#cabecera-login
+{
+    text-align:center;
+    background-color:#41CAC0;
+    height:50px;
+    color:#FFFFFF;
+}
+.caja-texto
+{
+    height:35px;
+    width:250px;
+    margin-top:15px;
+    border:1px solid #f4f4f4;
+    color:#d6d6d6;
+    font-size:medium;
+   
+}
+#acceder
+{
+    
+    width:100%;
+    height:35px;
+    background-color:#F67A6E;
+    color:#FFFFFF;
+    cursor:pointer;
+    border:0px;
+}
+#acceder h3
+{
+    padding:5px;  
+ 
+}
+#mensaje-error
+{
+    margin-top:5px;
+    color:rgb(218, 12, 12);
+}
