@@ -15,6 +15,7 @@ namespace OrdinadioMVC.Controllers
         //
         // GET: /Home/
 
+        
         [HttpGet]
         public ActionResult Index()
         {
@@ -50,8 +51,6 @@ namespace OrdinadioMVC.Controllers
             }
            
         }
-
-       
 
     }
 }

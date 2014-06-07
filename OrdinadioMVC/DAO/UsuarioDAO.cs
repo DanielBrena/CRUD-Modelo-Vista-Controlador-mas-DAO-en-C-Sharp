@@ -147,7 +147,7 @@ namespace DAO_ORDINARIO
         public List<Usuario> search(string usuarioB)
         {
             DataSource ds = new DataSource();
-            string sql = "SELECT * FROM usuario WHERE (nombre like '%"+usuarioB+"%' OR usuario like '%"+usuarioB+"%') " +
+            string sql = "SELECT * FROM usuario WHERE  usuario like '%"+usuarioB+"%' " +
                 " ORDER BY usuario";
             DataTable dt = ds.ejecutarConsulta(sql);
             List<Usuario> usuarios = new List<Usuario>();

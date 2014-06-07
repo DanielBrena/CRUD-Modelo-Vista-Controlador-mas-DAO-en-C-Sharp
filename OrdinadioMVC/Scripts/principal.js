@@ -235,9 +235,10 @@ Principal.modulo.addPerfil.init = function () {
                 success: function (data) {
                     if (data.upd = 1) {
                         $("#cabecera-mensaje").html("Se agrego un nuevo Perfil.");
-
-                        Principal.modulo.findAllPerfiles.init();
                         Principal.modulo.borrarCampoEditable.init();
+                        Principal.modulo.findAllPerfiles.init();
+       
+                        Principal.modulo.llenarActivo.init();
                     } else {
                         $("#cabecera-mensaje").html("No se guardo el Perfil.");
                     }
@@ -296,20 +297,22 @@ Principal.modulo.llenarCamposUsuario.init = function (data) {
 /*----eventoAgregar----*/
 Principal.modulo.eventoAgregar.init = function () {
     $("#btn-agregar").live('click', function () {
+        Principal.modulo.borrarCampoEditable.init();
         Principal.modulo.removerRestriccion.init();
         Principal.modulo.cargaAgregar.init();
 
     });
 }
 /*-----cargaAgregar----*/
-Principal.modulo.cargaAgregar.init = function(){
-        Principal.modulo.borrarCampoEditable.init();
-        $("#contrasena-editable").removeAttr("disabled");
-        Principal.modulo.eventoAgregar.init();
+Principal.modulo.cargaAgregar.init = function () {
+   // Principal.modulo.borrarCampoEditable.init();
+    $("#contrasena-editable").removeAttr("disabled");
+   // Principal.modulo.eventoAgregar.init();
 
-        $("#eliminar").css("display", "none");
-        Principal.modulo.llenarActivo.init();
-        Principal.modulo.findAllPerfiles.init();
+    $("#eliminar").css("display", "none");
+    Principal.modulo.llenarActivo.init();
+    Principal.modulo.findAllUsuarios.init();
+    Principal.modulo.findAllPerfiles.init();
 }
 
 /*----eventoEliminar----*/
@@ -352,7 +355,7 @@ Principal.modulo.llenarActivo.init = function () {
     $("#estatus-editable").empty();
     $("#estatus-editable").trigger("chosen:update");
     $("#estatus-editable").append($('<option></option>').attr('value', '0').text("0"));
-    $("#estatus-editable").append($('<option></option>').attr('value', '0').text("1"));
+    $("#estatus-editable").append($('<option></option>').attr('value', '1').text("1"));
 }
 
 /*---borrarCampoEditable----*/

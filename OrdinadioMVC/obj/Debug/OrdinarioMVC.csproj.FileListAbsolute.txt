@@ -3,3 +3,8 @@ C:\Users\daniel\Documents\Visual Studio 2010\Projects\OrdinadioMVC\OrdinadioMVC\
 C:\Users\daniel\Documents\Visual Studio 2010\Projects\OrdinadioMVC\OrdinadioMVC\obj\Debug\OrdinadioMVC.dll
 C:\Users\daniel\Documents\Visual Studio 2010\Projects\OrdinadioMVC\OrdinadioMVC\obj\Debug\OrdinadioMVC.pdb
 C:\Users\daniel\Documents\Visual Studio 2010\Projects\OrdinadioMVC\OrdinadioMVC\obj\Debug\OrdinarioMVC.csprojResolveAssemblyReference.cache
+C:\Users\daniel\Documents\ProgramacionVisual\OrdinarioMVC\OrdinadioMVC\bin\OrdinadioMVC.dll
+C:\Users\daniel\Documents\ProgramacionVisual\OrdinarioMVC\OrdinadioMVC\bin\OrdinadioMVC.pdb
+C:\Users\daniel\Documents\ProgramacionVisual\OrdinarioMVC\OrdinadioMVC\obj\Debug\OrdinarioMVC.csprojResolveAssemblyReference.cache
+C:\Users\daniel\Documents\ProgramacionVisual\OrdinarioMVC\OrdinadioMVC\obj\Debug\OrdinadioMVC.dll
+C:\Users\daniel\Documents\ProgramacionVisual\OrdinarioMVC\OrdinadioMVC\obj\Debug\OrdinadioMVC.pdb
