@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Data;
-
 namespace DAO_ORDINARIO
 {
     public class UsuarioDAO:IUsuario
@@ -122,7 +121,7 @@ namespace DAO_ORDINARIO
         {
             DataSource ds = new DataSource();
             string sql = "UPDATE usuario SET  nombre = '" + usuario.nombre + "', usuario ='" 
-                + usuario.usuario + "', contrasena= '" + usuario.contrasena +"', estatus = '" 
+                + usuario.usuario + "',  estatus = '" 
                 + usuario.estatus  + "', perfil_id = '" + usuario.perfil_id.id + "' WHERE id = '" + usuario.id+"'";
             int resultado = ds.ejecutarActualizacion(sql);
             return resultado;
@@ -140,5 +139,35 @@ namespace DAO_ORDINARIO
             return resultado;
    
         }
+
+        /**
+         * Metodo que busca en los usuarios.
+         * @return List<Usuario> Lista de usuarios.
+         */
+        public List<Usuario> search(string usuarioB)
+        {
+            DataSource ds = new DataSource();
+            string sql = "SELECT * FROM usuario WHERE (nombre like '%"+usuarioB+"%' OR usuario like '%"+usuarioB+"%') " +
+                " ORDER BY usuario";
+            DataTable dt = ds.ejecutarConsulta(sql);
+            List<Usuario> usuarios = new List<Usuario>();
+            Usuario usuario = null;
+
+            foreach (DataRow registro in dt.Rows)
+            {
+                usuario = new Usuario();
+                usuario.id = registro["id"].ToString();
+                usuario.nombre = registro["nombre"].ToString();
+                usuario.usuario = registro["usuario"].ToString();
+                usuario.contrasena = registro["contrasena"].ToString();
+                usuario.estatus = registro["estatus"].ToString();
+                PerfilDAO perfil = new PerfilDAO();
+                usuario.perfil_id = perfil.selectPerfilById(registro["perfil_id"].ToString());
+                usuarios.Add(usuario);
+
+            }
+            return usuarios;
+        }
+        
     }
 }

@@ -16,12 +16,14 @@
         <div id="cabecera">
             <div id="cabecera-1">
                 <input type="text" id="buscar-usuario" placeholder="Buscar usuario" />
-                <button id="btn-buscar">Buscar</button>
+                <button id="btn-cancelar">Cancelar</button>
                 <button id="btn-agregar">Agregar</button>
                 <label id="cabecera-mensaje"></label>
             </div>
             <div id="cabecera-2">
-                <button id="btn-salir">Salir</button>
+                
+                    <a id="btn-salir" style="text-decoration:none;" href="Principal/Salir">Salir</a>
+                
             </div>
         </div>
         <div id="cuerpo">
@@ -30,61 +32,11 @@
                    
                 </ul>
                 <div id="paginacion">
-                    asdasd
+                    
                 </div>
             </div>
             <div id="cuerpo-2" class="caja">
-                <div id="contenido-visible">
-                     <label class="titulo-input">ID</label>
-                      <div class="label-input">
-   
-                        <label id="id-visible" class="label-visible">  </label>
-
-                      </div>
-                    <label class="titulo-input">Nombre</label>
-                    <div class="label-input">
-   
-                        <label id="nombre-visible" class="label-visible">  </label>
-
-                    </div>
-
-                    <label class="titulo-input">Usuario</label>
-                    <div class="label-input">
-   
-                        <label id="usuario-visible" class="label-visible">  </label>
-
-                    </div>
-
-                    <label class="titulo-input">Contraseña</label>
-                    <div class="label-input">
-   
-                        <label id="contrasena-visible" class="label-visible">  </label>
-
-                    </div>
-
-                    <label class="titulo-input">Estatus</label>
-                    <div class="label-input">
-   
-                        <label id="estatus-visible" class="label-visible">  </label>
-
-                    </div>
-
-                    <label class="titulo-input">Perfil</label>
-                    <div class="label-input">
-   
-                        <label id="perfil-visible" class="label-visible">  </label>
-
-                    </div>
-
-                     <div id="actualizar">
-                        <h3>
-                            Actualizar
-                        </h3>
-                    </div>  
-
-
-
-                </div>
+                
                 <div id="contenido-editable">
                     <label class="titulo-input">ID</label>
                     <div class="caja-input">
@@ -95,24 +47,24 @@
                      <label class="titulo-input">Nombre</label>
                     <div class="caja-input">
                        
-                        <input id="nombre-editable" class="caja-editable" type="text" name="nombre" value="" />
+                        <input id="nombre-editable" class="caja-editable" type="text" name="nombre" disabled =disabled value="" />
                     </div>
 
                     <label class="titulo-input">Usuario</label>
                     <div class="caja-input">
                        
-                        <input id="usuario-editable" class="caja-editable" type="text" name="usuario" value="" />
+                        <input id="usuario-editable" class="caja-editable" type="text" name="usuario" disabled =disabled value="" />
                     </div>
 
-                    <label class="titulo-input">Contrasena</label>
+                    <label class="titulo-input">Contraseña</label>
                     <div class="caja-input">
-                       
-                        <input id="contrasena-editable" class="caja-editable" type="text" name="contrasena" value="" />
+                        
+                        <input id="contrasena-editable" class="caja-editable" type="text" name="contrasena" value="" disabled =disabled />
                     </div>
 
                     <label class="titulo-input">Estatus</label>
                     <div class="caja-input">
-                        <select id="estatus-editable" class="caja-editable">
+                        <select  disabled =disabled id="estatus-editable" class="caja-editable">
                            
                         </select>
                         
@@ -120,16 +72,12 @@
 
                     <label class="titulo-input">Perfil</label>
                     <div class="caja-input">
-                        <select id="perfil-editable" class="caja-editable">
+                        <select disabled =disabled id="perfil-editable" class="caja-editable">
                             
                         </select>
                         
                     </div>
-                    <div id="cancelar">
-                        <h3>
-                            Cancelar
-                        </h3>
-                    </div>
+                    
 
                     <div id="guardar">
                         <h3>
@@ -151,6 +99,51 @@
 
             </div>
             <div id="cuerpo-3" class="caja">
+                <div id="contenido-editable-2">
+                    <label class="titulo-input">ID</label>
+                    <div class="caja-input">
+   
+                        <input disabled="disabled" id="id-editable-2" class="caja-editable" type="text" name="id" value="" />
+                    </div>
+
+                     <label class="titulo-input">Nombre</label>
+                    <div class="caja-input">
+                       
+                        <input id="nombre-editable-2" class="caja-editable" type="text" name="nombre" disabled =disabled value="" />
+                    </div>
+
+                    <label class="titulo-input">Descripcion</label>
+                    <div class="caja-input">
+                        <textarea cols=40 rows=10 id="descripcion-editable" disabled=disabled> </textarea>
+                       
+                    </div>
+
+                    
+
+                    <label class="titulo-input">Estatus</label>
+                    <div class="caja-input">
+                        <select  disabled =disabled id="estatus-editable-2" class="caja-editable">
+                           <option value="0">0</option>
+                           <option value="0">1</option>
+                        </select>
+                        
+                    </div>
+
+                    
+                    
+
+                    <div id="guardar-2">
+                        <h3>
+                            Guardar
+                        </h3>
+                    </div>
+
+                    
+                   
+                    
+                      
+                    
+                </div>
             </div>
         </div>
     </div>

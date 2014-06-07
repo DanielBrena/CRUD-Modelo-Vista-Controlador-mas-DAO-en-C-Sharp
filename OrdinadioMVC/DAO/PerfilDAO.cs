@@ -55,6 +55,19 @@ namespace DAO_ORDINARIO
             return perfiles;
         }
 
+        /**
+         * Metodo que inserta un perfil.
+         * @return int Regresa 1 si fue exitosa la execucion o 0 si fallo.
+         */
+        public int insertPerfil(Perfil perfil)
+        {
+            DataSource dt = new DataSource();
+            string sql = "INSERT INTO perfil  VALUES ('" + perfil.id + "', '" + perfil.nombre
+                + "' ,'" + perfil.descripcion + "','" + perfil.estatus + "')";
+            int resultado = dt.ejecutarActualizacion(sql);
+            return resultado;
+        }
+
         
     }
 }

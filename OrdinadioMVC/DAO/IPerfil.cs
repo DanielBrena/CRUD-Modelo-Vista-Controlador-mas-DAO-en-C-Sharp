@@ -9,6 +9,6 @@ namespace DAO_ORDINARIO
     {
         Perfil selectPerfilById(string id);
         List<Perfil> selectPerfiles();
-
+        int insertPerfil(Perfil perfil);
     }
 }

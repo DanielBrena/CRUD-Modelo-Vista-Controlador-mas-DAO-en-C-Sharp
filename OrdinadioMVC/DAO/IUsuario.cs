@@ -13,5 +13,6 @@ namespace DAO_ORDINARIO
         int insertUsuario(Usuario usuario);
         int updateUsuario(Usuario usuario);
         int deleteUsuario(string id);
+        List<Usuario> search(string usuario);
     }
 }

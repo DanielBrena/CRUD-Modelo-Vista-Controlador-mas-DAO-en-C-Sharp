@@ -33,6 +33,7 @@ html
 {
     color:#FFFFFF;
     margin-left:15px;
+    display:none;
 }
 #lista
 {
@@ -57,7 +58,7 @@ html
 
 .lista-item:hover
 {
-    background-color: #2A3542;
+    background-color: #F67A6E;
     color:#FFFFFF;
 }
 
@@ -79,8 +80,9 @@ html
     height:25px;
     color:#2A3542;
 }
-#btn-buscar
+#btn-cancelar
 {
+    cursor:pointer;
     width:150px;
     height:25px;
     border:0px;
@@ -94,11 +96,12 @@ html
     border:0px;
     background-color:#9AA0A6;
     color:#FFFFFF;
+    cursor:pointer;
 }
 
 #btn-salir
 {
-    width:150px;
+    width:200px;
     height:25px;
     border:0px;
     color:#2A3542;
@@ -136,9 +139,13 @@ html
 #contenido-editable
 {
     text-align:center;
-    display:none;
+   
 }
-
+#contenido-editable-2
+{
+    text-align:center;
+   
+}
 .caja-editable
 {
     margin-top:5px;
@@ -157,38 +164,19 @@ html
     background-color:#FFFFFF;
 }
 
-#contenido-visible
-{
-    text-align:center;
-    background-color: #2A3542;
-    color:#FFFFFF;
-    display:none;
-}
-#actualizar
-{
-    background-color:#6CCAC9;
-    height:50px;
-    
-}
-#cancelar
-{
-    background-color:#FF6C60;
-    height:25px;
-    color:#FFFFFF;
-    cursor:pointer;
-}
 
-#guardar
+
+#guardar, #guardar-2
 {
     background-color:#F8D347;
-    height:25px;
+    height:40px;
     color:#FFFFFF;
     cursor:pointer;
 }
-#eliminar
+#eliminar, #liminar-2
 {
     background-color:#57C8F2;
-    height:25px;
+    height:40px;
     color:#FFFFFF;
     cursor:pointer;
 }

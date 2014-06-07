@@ -1,5 +1,5 @@
-C:\Users\daniel\Documents\ProgramacionVisual\OrdinadioMVC\OrdinadioMVC\bin\OrdinadioMVC.dll
-C:\Users\daniel\Documents\ProgramacionVisual\OrdinadioMVC\OrdinadioMVC\bin\OrdinadioMVC.pdb
-C:\Users\daniel\Documents\ProgramacionVisual\OrdinadioMVC\OrdinadioMVC\obj\Debug\OrdinarioMVC.csprojResolveAssemblyReference.cache
-C:\Users\daniel\Documents\ProgramacionVisual\OrdinadioMVC\OrdinadioMVC\obj\Debug\OrdinadioMVC.dll
-C:\Users\daniel\Documents\ProgramacionVisual\OrdinadioMVC\OrdinadioMVC\obj\Debug\OrdinadioMVC.pdb
+C:\Users\daniel\Documents\Visual Studio 2010\Projects\OrdinadioMVC\OrdinadioMVC\bin\OrdinadioMVC.dll
+C:\Users\daniel\Documents\Visual Studio 2010\Projects\OrdinadioMVC\OrdinadioMVC\bin\OrdinadioMVC.pdb
+C:\Users\daniel\Documents\Visual Studio 2010\Projects\OrdinadioMVC\OrdinadioMVC\obj\Debug\OrdinadioMVC.dll
+C:\Users\daniel\Documents\Visual Studio 2010\Projects\OrdinadioMVC\OrdinadioMVC\obj\Debug\OrdinadioMVC.pdb
+C:\Users\daniel\Documents\Visual Studio 2010\Projects\OrdinadioMVC\OrdinadioMVC\obj\Debug\OrdinarioMVC.csprojResolveAssemblyReference.cache
